@@ -24,7 +24,7 @@ Follow the instructions below to set up the workshop using AWS CloudFormation.
 1. Click the "Create stack" button.
 1. Set "Template is ready" in the Prepare template section.
 1. Set "Upload a template file" in the Template source section.
-1. Upload the cf_direct_marketing_workshop.json file provided in the cloudformation folder of this repository.
+1. Upload the `cf_direct_marketing_workshop.json` file provided in the cloudformation folder of this repository.
 1. Click the "Next" button.
 1. Enter a Stack name.
 1. Click the "Next" button twice.
@@ -47,13 +47,13 @@ Follow the instructions below to set up the workshop manually in your AWS accoun
   * Choose "Create a new role" from the drop-down menu, then choose the "Any S3 bucket" option in the corresponding menu.
 1. Expand the "Github repositories - optional" tab.
 1. Choose "Clone a public Git repository to this notebook instance only" from the drop-down menu.
-1. Insert https://github.com/aws-samples/amazon-sagemaker-workshop-direct-marketing-xgboost.git as the Git repository URL.
+1. Insert `https://github.com/aws-samples/amazon-sagemaker-workshop-direct-marketing-xgboost.git` as the Git repository URL.
 1. Finish by clicking the "Create notebook instance" button.
 
-You may need to wait a couple of minutes for the notebook to be created. Once the status shows "InService", click on "Open Jupyter". This will open a new Jupyter tab showing the contents of this repository. Open the participant_workshop.ipynb file to get started on the workshop.
+You may need to wait a couple of minutes for the notebook to be created. Once the status shows "InService", click on "Open Jupyter". This will open a new Jupyter tab showing the contents of this repository. Open the `notebooks/participant_workshop.ipynb` file to get started on the workshop.
 
 ## For Instructors
 
-To encourage active learning, the participant notebook (notebooks/participant_workshop.ipynb) contains cells which require the user to write or fix code before running successfully. The see the correct answers, or suggestions where no single answer is correct, please open the instructor notebook (notebooks/instructor_workshop.ipynb).
+To encourage active learning, the participant notebook (`notebooks/participant_workshop.ipynb`) contains cells which require the user to write or fix code before running successfully. The see the correct answers, or suggestions where no single answer is correct, please open the instructor notebook (`notebooks/instructor_workshop.ipynb`).
 
 _version 1 September 2019_
