@@ -55,5 +55,3 @@ You may need to wait a couple of minutes for the notebook to be created. Once th
 ## For Instructors
 
 To encourage active learning, the participant notebook (`notebooks/participant_workshop.ipynb`) contains cells which require the user to write or fix code before running successfully. The see the correct answers, or suggestions where no single answer is correct, please open the instructor notebook (`notebooks/instructor_workshop.ipynb`).
-
-_version 1 September 2019_
