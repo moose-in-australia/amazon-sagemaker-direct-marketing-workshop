@@ -45,7 +45,7 @@
         "WorkshopNotebook": {
             "Type": "AWS::SageMaker::NotebookInstance",
             "Properties": {
-                "DefaultCodeRepository": "https://github.com/edenduthie/auto-labelling-model-tuning-amazon-sagemaker.git",
+                "DefaultCodeRepository": "https://github.com/moose-in-australia/amazon-sagemaker-direct-marketing-workshop.git",
                 "InstanceType": "ml.t2.medium",
                 "NotebookInstanceName": "amazon-sagemaker-workshop-direct-marketing",
                 "RoleArn": {
