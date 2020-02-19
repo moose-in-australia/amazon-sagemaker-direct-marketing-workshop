@@ -50,8 +50,8 @@ Follow the instructions below to set up the workshop manually in your AWS accoun
 1. Insert `https://github.com/aws-samples/amazon-sagemaker-workshop-direct-marketing-xgboost.git` as the Git repository URL.
 1. Finish by clicking the "Create notebook instance" button.
 
-You may need to wait a couple of minutes for the notebook to be created. Once the status shows "InService", click on "Open Jupyter". This will open a new Jupyter tab showing the contents of this repository. Open the `notebooks/participant_workshop.ipynb` file to get started on the workshop.
+You may need to wait a couple of minutes for the notebook to be created. Once the status shows "InService", click on "Open Jupyter". This will open a new Jupyter tab showing the contents of this repository. Open the `notebooks/participant_workshop_long_version.ipynb` file to get started on the full workshop, or open the `notebooks/participant_workshop_short_version.ipynb` file to work through the minimal version.
 
 ## For Instructors
 
-To encourage active learning, the participant notebook (`notebooks/participant_workshop.ipynb`) contains cells which require the user to write or fix code before running successfully. The see the correct answers, or suggestions where no single answer is correct, please open the instructor notebook (`notebooks/instructor_workshop.ipynb`).
+To encourage active learning, the participant notebooks (`notebooks/participant_workshop_[long/short]_version.ipynb`) contains cells which require the user to write or fix code before running successfully. The see the correct answers, or suggestions where no single answer is correct, please open the instructor notebook (`notebooks/instructor_workshop.ipynb`).
